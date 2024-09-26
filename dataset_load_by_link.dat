@@ -1,0 +1,4 @@
+url = ""
+url = 'https://drive.google.com/uc?id=' + url.split('/')[-2]
+df = pd.read_excel(url)#, encoding='cp949')
+

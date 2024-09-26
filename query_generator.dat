@@ -1,0 +1,37 @@
+Generate one complicated query per category based on the only contents of the currently attached file that is expected from chatGPT users in Korean. Each query must have a minimum of 2 sentences. Don't use the previously attached file. Don't generate the same query that you previously generated. I don't need an explanation. Just give me the expected question per file.
+
+Categories:
+
+1. Describe the basic facts about my data, A11
+2. Recall specific data point, A21
+3. Show subset of data, A31
+4. Generate clean / fixed table by removing errors, B11
+5. Identify errors, B12
+6. Generate aggregation table, B21
+7. Generate table with computed columns, B22
+8. Join Tables, B23
+9. Combining Columns, B24
+10. Spreading a column into multiple (for groups), B25
+
+1. Simple explicit metric calculation, B31
+2. Simple implicit metric calculation, B32
+3. Complex metric calculation, B33
+4. Multiple simple/complex calculations in the same query, B34
+5. Explicit chart plotting  (2-dimensions: line, bar, pie), B41
+6. Complex chart plotting  (3+ dimensions: heatmap, bubble), B42
+7. Asking for Prediction, B51
+8. Model building, B52
+9. Asking for metrics from predictive model, B53
+10. Retrieval, B61
+
+1. Filtering, B62
+2. Counts, B63
+3. Combining Content, B64
+4. Extraction, B65
+5. Summarization, B66
+6. Rewriting, B67
+7. Exploratory Data Analysis (EDA): Pattern Recognition or generic insight, C11
+8. Insights about X, C21
+9. Advanced analysis, C22
+10. Model building, B52
+

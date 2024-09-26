@@ -1,0 +1,2 @@
+Translate file names, column names, and all the information inside of the columns that are the datatype, which is a non-numerical type, to the Korean language based on the only contents of the currently attached file. If there is no proper translation, just write the pronunciation in Korean. Don't use the previously attached file. I don't need an explanation. Just show me a preview of the table. Just save the results in XLSX format.
+
